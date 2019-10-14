@@ -142,12 +142,18 @@ a:hover {color: #f9014d;}
 .header {
     position: fixed;
     width: 100%;
-    padding-top: 30px;
+    padding: 10px 0 5px 0;
     z-index: 6;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
 }
 .header .logo img {
     max-width: 150px;
 
+}
+.header.fixed {
+    background: #2c3e50;
 }
 
 /*SEARCH
@@ -242,6 +248,7 @@ a:hover {color: #f9014d;}
     .nav-toggle {
         color: #fff;
         font-size: 22px;
+        margin-top: 8px;
     }
     .nav-close {
         font-size: 30px;
@@ -290,7 +297,7 @@ a:hover {color: #f9014d;}
     }
     .header .nav {
         float: right;
-        margin-top: 20px;
+        margin-top: 6px;
     }
     .header .nav ul li {
         display: inline-block;
