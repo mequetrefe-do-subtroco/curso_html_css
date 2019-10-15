@@ -9,7 +9,7 @@ img {max-width: 100%; border: none;}
 
 /*LINKS
 --------------------------------------------------------------*/
-a {text-decoration: none; color: inherit}
+a {text-decoration: none; color: inherit; transition: all .3s ease-in-out;}
 a:hover {color: #f9014d;}
 
 /*GERAIS
@@ -331,6 +331,55 @@ a:hover {color: #f9014d;}
     font-weight: bold;
 }
 
+/*FOOTER
+--------------------------------------------------------------*/
+.footer {
+    background: #181818;
+    float: left;
+    width: 100%;
+    color: #fff;
+    padding: 30px 0;
+}
+.footer-col {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+.footer-col h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer-col p {
+    text-align: justify;
+}
+.footer-col .links-uteis li {
+    padding: 10px 0;
+}
+.footer-col .links-uteis li:not(:last-of-type) {
+    border-bottom: 1px solid #fff;
+}
+.footer-col .social li {
+    padding: 10px 0;
+}
+.footer-col .social li .fab {
+    background: #000;
+    font-size: 20px;
+    margin-right: 5px;
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.footer-autorais {
+    padding-top: 20px;
+    border-top: 1px solid #fff;
+    color: #ccc;
+    text-align: right;
+}
+
 /*BREAKPOINT MÁXIMOS
 --------------------------------------------------------------*/
 @media (max-width: 767.9px) {
@@ -452,6 +501,20 @@ a:hover {color: #f9014d;}
     }
     .testemunhas-article:not(:last-of-type) {
         margin-right: 4%;
+    }
+
+    /* Footer */
+    .footer-col:nth-child(1) {
+        width: 40%;
+    }
+    .footer-col:nth-child(2) {
+        width: 30%;
+    }
+    .footer-col:nth-child(3) {
+        width: 20%;
+    }
+    .footer-col:not(:nth-last-of-type(2)) {
+        margin-right: 5%;
     }
 }
 
