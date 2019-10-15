@@ -26,7 +26,7 @@ SECRET_KEY = '02705ab03d396088a34dc42aca944de51f8a5271c1ea9808'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['still-garden-31345.herokuapp.com']
+ALLOWED_HOSTS = ['still-garden-31345.herokuapp.com', '127.0.0.1', ]
 
 
 # Application definition
@@ -119,9 +119,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATICFILES_DIRS = (
-  os.path.join(BASE_DIR, 'pages/static'),
-)
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'pages/static')
 STATIC_URL = '/static/'
