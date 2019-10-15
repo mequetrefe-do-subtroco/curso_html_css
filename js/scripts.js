@@ -6,11 +6,11 @@ $ (function () {
     });
     // fixar header
     $ (window).scroll(function(){
-        if ($ (this).scrollTop() > 100) {
-            $ ('.header').addClass('fixed');
+        if ($ (this).scrollTop() < 100) {
+            $ ('.header').removeClass('fixed');
         }
         else {
-            $ ('.header').removeClass('fixed');
+            $ ('.header').addClass('fixed');
         }
     });
 });
