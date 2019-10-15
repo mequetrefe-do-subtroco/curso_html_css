@@ -1,12 +1,13 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="pt-br">
   <head>
     <title>Curso de HTML e CSS Básico - HTML e CSS Pro</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="static/css/fontawesome-all.min.css">
-    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/css/fontawesome-all.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/css/style.css' %}">
   </head>
   <body>
 
@@ -422,6 +423,6 @@
     <!-- End footer -->
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="{% static 'pages/js/scripts.js' %}"></script>
   </body>
 </html>

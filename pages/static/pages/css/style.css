@@ -162,7 +162,7 @@ a:hover {color: #f9014d;}
     text-align: center;
     color: #ffffff;
     padding: 100px 0;
-    background-image: url(../../media/images/bg-search.jpg);
+    background-image: url(../../../media/images/bg-search.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -250,7 +250,7 @@ a:hover {color: #f9014d;}
     color: #ffffff;
     padding: 160px 0;
     font-size: 23px;
-    background-image: url(../../media/images/bg-paralax.jpg);
+    background-image: url(../../../media/images/bg-paralax.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -287,7 +287,7 @@ a:hover {color: #f9014d;}
 --------------------------------------------------------------*/
 .testemunhas {
     padding: 60px 0;
-    background-image: url(../../media/images/bg-testemunhas.jpg);
+    background-image: url(../../../media/images/bg-testemunhas.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
