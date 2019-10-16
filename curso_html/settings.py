@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '02705ab03d396088a34dc42aca944de51f8a5271c1ea9808'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['still-garden-31345.herokuapp.com', '127.0.0.1', ]
 
@@ -119,12 +119,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATIC_URL = '/static/*'
+STATIC_ROOT = os.path.join(BASE_DIR, '')
+STATIC_URL = '/static/'
 
 STATIC_DIRS = [
     os.path.join(BASE_DIR, "pages/static"),
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, '')
-MEDIA_URL = '/media/*'
+MEDIA_URL = '/media/'
